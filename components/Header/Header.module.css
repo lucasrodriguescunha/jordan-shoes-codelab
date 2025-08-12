@@ -1,17 +1,16 @@
-.headerContainer {
+.headerSection {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    background: #F3F7FF;
-    gap: 0.625rem
+    font-family: 'Archivo', sans-serif;
+    background: var(--color-dark-20);
 }
 
-.phraseFreight {
+.freeShippingMessage {
     font-weight: 500;
     font-size: 1.5rem;
     color: #121214;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
 }
