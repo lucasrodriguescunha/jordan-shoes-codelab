@@ -1,0 +1,19 @@
+.heroSection {
+    display: flex;
+    justify-content: center;
+
+    background-image: url('/image-michael-jordan.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    /* ou altura responsiva como 50vh, 100vh */
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
