@@ -1,0 +1,17 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: #F3F7FF;
+    gap: 0.625rem
+}
+
+.phraseFreight {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #121214;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
