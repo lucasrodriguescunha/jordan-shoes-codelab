@@ -16,4 +16,33 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    width: 560px;
+}
+
+.heroHeader {
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.heroTitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+
+.heroSubtitle {
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--color-white);
+    padding-bottom: 1.25rem;
+}
+
+.heroText {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--color-white);
 }

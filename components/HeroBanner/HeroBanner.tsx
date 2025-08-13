@@ -14,13 +14,16 @@ export default function HeroBanner() {
                         height='48'
                         className={styles.heroLogo}
                     />
-                    <h1 className={styles.heroTitle}>A melhor loja de Jordan</h1>
+                    <h1 className={styles.heroTitle}>JordanShoes</h1>
                 </article>
 
-                <p className={styles.heroDescription}>
-                    A melhor loja de Jordan. O tênis Jordan é fruto de uma velha e forte
-                    parceria entre a Nike e o jogador Michael Jordan.
-                </p>
+                <div className={styles.heroDescription}>
+                    <h2 className={styles.heroSubtitle}>A melhor loja de Jordan</h2>
+                    <p className={styles.heroText}>
+                        O tênis Jordan é fruto de uma velha e forte
+                        parceria entre a Nike e o jogador Michael Jordan.
+                    </p>
+                </div>
             </div>
         </section>
     );
