@@ -4,7 +4,7 @@ import styles from './HeroBanner.module.css';
 
 export default function HeroBanner() {
     return (
-        <section className={styles.heroSection}>
+        <section className={styles.heroContainer}>
             <div className={styles.heroContent}>
                 <article className={styles.heroHeader}>
                     <Image
@@ -19,10 +19,10 @@ export default function HeroBanner() {
 
                 <div className={styles.heroDescription}>
                     <h2 className={styles.heroSubtitle}>A melhor loja de Jordan</h2>
-                    <p className={styles.heroText}>
+                    <span className={styles.heroText}>
                         O tênis Jordan é fruto de uma velha e forte
                         parceria entre a Nike e o jogador Michael Jordan.
-                    </p>
+                    </span>
                 </div>
             </div>
         </section>

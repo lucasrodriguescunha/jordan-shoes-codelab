@@ -1,4 +1,4 @@
-.heroSection {
+.heroContainer {
     display: flex;
     justify-content: center;
 
@@ -16,8 +16,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
-    width: 35rem;
 }
 
 .heroHeader {
@@ -34,11 +32,18 @@
     color: var(--color-white);
 }
 
+.heroDescription {
+    display: flex;
+    flex-direction: column;
+
+    width: 37rem;
+    gap: 2rem;
+}
+
 .heroSubtitle {
     font-weight: 500;
     font-size: 2rem;
     color: var(--color-white);
-    padding-bottom: 1.25rem;
 }
 
 .heroText {
