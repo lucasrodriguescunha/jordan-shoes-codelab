@@ -4,8 +4,10 @@ import styles from './Header.module.css';
 
 export default function Header() {
     return (
-        <header className={styles.headerSection}>
-            <span className={styles.freeShippingMessage}>Frete grátis para todo o Brasil</span>
+        <header className={styles.headerContainer}>
+            <span className={styles.freeShippingMessage}>
+                Frete grátis para todo o Brasil
+            </span>
             <HeroBanner/>
         </header>
     );
