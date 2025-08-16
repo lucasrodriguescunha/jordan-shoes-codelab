@@ -3,8 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
 
     gap: 2rem;
-    margin-left: 22rem;
-    margin-right: 22rem;
+    margin: 0 22rem;
     padding-bottom: 4.5rem;
 }
 
