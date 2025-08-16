@@ -11,6 +11,6 @@
 .freeShippingMessage {
     font-weight: 500;
     font-size: 1.5rem;
-    color: #121214;
+    color: var(--color-dark-10);
     padding: 1rem 0;
 }
