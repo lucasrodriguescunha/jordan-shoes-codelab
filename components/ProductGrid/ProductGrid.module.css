@@ -1,0 +1,13 @@
+.productGridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+    margin-left: 22rem;
+    margin-right: 22rem;
+    padding-bottom: 4.5rem;
+}
+
+.gridColumn {
+    gap: 2rem;
+}
