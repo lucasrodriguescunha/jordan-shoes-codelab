@@ -1,11 +1,16 @@
 import type {Metadata} from 'next';
-import {Archivo} from 'next/font/google';
+import {Archivo, Space_Grotesk} from 'next/font/google';
 import './globals.css';
 
 const geistArchivo = Archivo({
     variable: '--font-geist-archivo',
     subsets: ['latin'],
-})
+});
+
+const geistSpaceGrotesk = Space_Grotesk({
+    variable: '--font-geist-space-grotesk',
+    subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
     title: 'Jordan Shoes',
@@ -20,7 +25,7 @@ export default function RootLayout({
     return (
         <html lang='pt-br'>
         <body
-            className={`${geistArchivo.variable} antialiased`}
+            className={`${geistArchivo.variable} ${geistSpaceGrotesk.variable} antialiased`}
         >
         {children}
         </body>
