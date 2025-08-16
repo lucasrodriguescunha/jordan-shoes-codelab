@@ -18,12 +18,12 @@ export default function CardProduct({image, title, description, price}: CardProd
                     alt='Tênis Jordan'
                     width={225}
                     height={135}
+                    className={styles.productImage}
                 />
 
                 <h2 className={styles.productTitle}>{title}</h2>
                 <p className={styles.productDescription}>{description}</p>
                 <span className={styles.productPrice}>R$ {price.toFixed(2)}</span>
-                <button className={styles.addToCartButton}>Add to Cart</button>
             </div>
         </section>
     );
