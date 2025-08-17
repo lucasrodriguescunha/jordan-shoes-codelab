@@ -54,6 +54,10 @@
 }
 
 @media (max-width: 768px) {
+    .heroContent {
+        margin: 0 2rem;
+    }
+
     .heroTitle {
         font-size: 1.125rem;
     }
