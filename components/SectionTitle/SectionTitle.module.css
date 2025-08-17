@@ -30,3 +30,13 @@
     color: var(--color-dark-10);
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .sectionTitle {
+        font-size: 1.5rem;
+    }
+
+    .sectionText {
+        font-size: 1rem;
+    }
+}
