@@ -21,7 +21,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
     .freeShippingMessage {
         font-size: 0.875rem;
     }
