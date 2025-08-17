@@ -38,3 +38,8 @@
     color: var(--color-dark-10);
     font-family: var(--font-geist-space-grotesk);
 }
+
+@media (max-width: 768px) {
+    .cardProductContainer {
+    }
+}
