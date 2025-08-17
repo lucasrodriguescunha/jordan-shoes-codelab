@@ -17,3 +17,10 @@
         margin: 0 2rem;
     }
 }
+
+@media (max-width: 576px) {
+    .productGridContainer {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 2rem;
+    }
+}
