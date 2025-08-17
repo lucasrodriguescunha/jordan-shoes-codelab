@@ -38,7 +38,7 @@
     flex-direction: column;
 
     width: 37rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .heroSubtitle {
@@ -62,11 +62,29 @@
         font-size: 1.125rem;
     }
 
+    .heroDescription {
+        gap: 0.5rem;
+    }
+
     .heroSubtitle {
         font-size: 1.5rem;
     }
 
     .heroText {
         font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .heroContent {
+        margin: 0 1rem;
+    }
+
+    .heroText {
+        font-size: 1rem;
+    }
+
+    .heroDescription {
+        gap: 0.5rem;
     }
 }
