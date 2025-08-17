@@ -36,6 +36,10 @@
         margin: 0 2rem;
     }
 
+    .sectionDescription {
+        gap: 1rem;
+    }
+
     .sectionTitle {
         font-size: 1.5rem;
     }
