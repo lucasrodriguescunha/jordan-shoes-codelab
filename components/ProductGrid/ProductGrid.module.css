@@ -10,3 +10,10 @@
 .gridColumn {
     gap: 2rem;
 }
+
+@media (max-width: 768px) {
+    .productGridContainer {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 2rem;
+    }
+}
