@@ -14,3 +14,9 @@
     color: var(--color-dark-10);
     padding: 1rem 0;
 }
+
+@media (max-width: 768px) {
+    .freeShippingMessage {
+        font-size: 1rem;
+    }
+}
