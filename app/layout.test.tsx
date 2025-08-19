@@ -43,7 +43,7 @@ describe('RootLayout', () => {
 
         try {
             RootLayout({children: testContent});
-        } catch (error) {
+        } catch {
             throw new Error('RootLayout should not throw an error');
         }
     });
