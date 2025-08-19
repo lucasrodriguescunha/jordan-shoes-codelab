@@ -13,10 +13,15 @@ jest.mock('next/font/google', () => ({
 
 describe('RootLayout', () => {
     it('Verifica se o layout é exportado corretamente', () => {
-        const RootLayout = require('./layout').default;
-        expect(RootLayout).toBeDefined();
+        // Verifica se RootLayout está definido
+        if (!RootLayout) {
+            throw new Error('RootLayout should be defined');
+        }
 
-        expect(typeof RootLayout).toBe('function');
+        // Verifica se RootLayout é uma função
+        if (typeof RootLayout !== 'function') {
+            throw new Error('RootLayout should be a function');
+        }
     });
 
     it('Renderiza o layout com children corretamente', () => {
@@ -27,12 +32,19 @@ describe('RootLayout', () => {
             </div>
         );
 
-        expect(getByTestId('test-content')).toBeInTheDocument();
+        const element = getByTestId('test-content');
+        if (!element) {
+            throw new Error('Test content should be in the document');
+        }
     });
 
     it('Testa a estrutura do componente RootLayout', () => {
         const testContent = <div>Test</div>;
 
-        expect(() => RootLayout({children: testContent})).not.toThrow();
+        try {
+            RootLayout({children: testContent});
+        } catch (error) {
+            throw new Error('RootLayout should not throw an error');
+        }
     });
 });
