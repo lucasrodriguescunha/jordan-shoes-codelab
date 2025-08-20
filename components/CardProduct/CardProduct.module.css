@@ -39,7 +39,7 @@
 }
 
 /* Mobile */
-@media (max-width: var(--breakpoint-sm)) {
+@media (max-width: 576px) {
     .cardProductContainer {
         margin: 0 2rem;
     }

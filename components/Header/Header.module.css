@@ -16,14 +16,14 @@
 }
 
 /* Tablet */
-@media (max-width: var(--breakpoint-md)) {
+@media (max-width: 768px) {
     .freeShippingMessage {
         font-size: 1rem;
     }
 }
 
 /* Mobile */
-@media (max-width: var(--breakpoint-sm)) {
+@media (max-width: 576px) {
     .freeShippingMessage {
         font-size: 0.875rem;
     }
