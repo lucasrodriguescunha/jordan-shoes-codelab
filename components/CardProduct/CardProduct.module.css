@@ -38,7 +38,8 @@
     font-family: var(--font-geist-space-grotesk);
 }
 
-@media (max-width: 576px) {
+/* Mobile */
+@media (max-width: var(--breakpoint-sm)) {
     .cardProductContainer {
         margin: 0 2rem;
     }
