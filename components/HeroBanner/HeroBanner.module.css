@@ -53,7 +53,8 @@
     color: var(--color-white);
 }
 
-@media (max-width: 768px) {
+/* Tablet */
+@media (max-width: var(--breakpoint-md)) {
     .heroContent {
         margin: 0 2rem;
     }
@@ -75,7 +76,8 @@
     }
 }
 
-@media (max-width: 576px) {
+/* Mobile */
+@media (max-width: var(--breakpoint-sm)) {
     .heroContent {
         margin: 0 2rem;
     }
