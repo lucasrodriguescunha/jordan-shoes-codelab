@@ -15,13 +15,15 @@
     padding: 1rem 0;
 }
 
-@media (max-width: 768px) {
+/* Tablet */
+@media (max-width: var(--breakpoint-md)) {
     .freeShippingMessage {
         font-size: 1rem;
     }
 }
 
-@media (max-width: 576px) {
+/* Mobile */
+@media (max-width: var(--breakpoint-sm)) {
     .freeShippingMessage {
         font-size: 0.875rem;
     }
