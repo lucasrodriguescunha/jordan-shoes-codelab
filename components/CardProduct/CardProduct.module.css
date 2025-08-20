@@ -38,11 +38,6 @@
     font-family: var(--font-geist-space-grotesk);
 }
 
-@media (max-width: 768px) {
-    .cardProductContainer {
-    }
-}
-
 @media (max-width: 576px) {
     .cardProductContainer {
         margin: 0 2rem;
