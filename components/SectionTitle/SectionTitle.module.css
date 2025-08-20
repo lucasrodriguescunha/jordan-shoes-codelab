@@ -31,7 +31,6 @@
     text-align: center;
 }
 
-/* Tablet */
 @media (max-width: 768px) {
     .sectionTitleContainer {
         padding: 3.5rem 0 2.5rem;
@@ -51,7 +50,6 @@
     }
 }
 
-/* Mobile */
 @media (max-width: 576px) {
     .sectionTitleContainer {
         margin: 0 2rem;

@@ -11,15 +11,13 @@
     gap: 2rem;
 }
 
-/* Tablet grande e desktop pequeno */
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
     .productGridContainer {
         grid-template-columns: repeat(2, 1fr);
         margin: 0 2rem;
     }
 }
 
-/* Mobile */
 @media (max-width: 576px) {
     .productGridContainer {
         grid-template-columns: repeat(1, 1fr);
