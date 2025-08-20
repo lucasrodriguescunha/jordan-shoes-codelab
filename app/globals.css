@@ -10,4 +10,12 @@
 
     --font-family-archivo: var(--font-geist-archivo);
     --font-family-space-grotesk: var(--font-geist-space-grotesk);
+
+    /* Breakpoints padronizados */
+    --breakpoint-xs: 480px;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
 }
